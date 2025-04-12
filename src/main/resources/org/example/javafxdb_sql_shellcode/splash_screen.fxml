@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane styleClass="splash-screen" prefHeight="560.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.module03_basicgui_db_interface.SplashScreenController">
+    <children>
+        <VBox alignment="CENTER" layoutX="172.0" layoutY="173.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="293.0" fitWidth="332.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../images/suny_farmingdale.png" />
+                    </image>
+                </ImageView>
+                <Label styleClass="header" text="User Management System">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Label text="CSC311 Azure Database Integration">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <ProgressBar fx:id="progressBar" prefWidth="400.0" progress="0.0" />
+                <Label fx:id="statusLabel" text="Loading...">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

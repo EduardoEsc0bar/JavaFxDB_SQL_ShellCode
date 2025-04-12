@@ -1,12 +1,13 @@
 package org.example.javafxdb_sql_shellcode;
 
-import java.io.IOException;
 import javafx.fxml.FXML;
+
+import java.io.IOException;
 
 public class SecondaryController {
 
     @FXML
     private void switchToPrimary() throws IOException {
-        App.setRoot("primary");
+        //App.setRoot("primary");
     }
 }
